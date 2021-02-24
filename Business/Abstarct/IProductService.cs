@@ -15,6 +15,9 @@ namespace Business.Abstarct
         IDataResult<List<ProductDetailDto>> GetProductdetails();
         IDataResult<Product> GetById(int id);
         IResult Add(Product product);
+        IResult Update(Product product);
 
     }
 }
+
+//RESTFUL --> HTTP(İnternet Protokolü)-->
